@@ -112,6 +112,14 @@ var wc_cart_fragments_params = {"ajax_url":"","wc_ajax_url":"","cart_hash_key":"
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="../../assets/external/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<style id="wp-block-cover-fix">
+.wp-block-cover{position:relative;overflow:hidden;min-height:430px;display:flex;align-items:center;justify-content:center;}
+.wp-block-cover.has-parallax,.wp-block-cover.has-parallax .wp-block-cover__image-background{background-attachment:fixed;}
+.wp-block-cover__image-background{position:absolute;top:0;left:0;right:0;bottom:0;margin:0;padding:0;width:100%;height:100%;max-width:none;max-height:none;object-fit:cover;background-size:cover;border:none;outline:none;z-index:0;}
+.wp-block-cover__background{position:absolute;top:0;left:0;right:0;bottom:0;z-index:0;}
+.wp-block-cover__inner-container{position:relative;z-index:1;width:100%;}
+.wp-block-cover.full-width{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;}
+</style>
 </head>
 <body class="wp-singular page-template page-template-page-templates page-template-page-nosidebars page-template-page-templatespage-nosidebars-php page page-id-241 page-child parent-pageid-249 wp-theme-alphana theme-alphana woocommerce-no-js">
 <a class="skip-link screen-reader-text" href="#main-content-wrapper">

@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cantarell/v18/B50NF7ZDq37KMUvlO015jKJu.ttf) format('truetype');
+}
