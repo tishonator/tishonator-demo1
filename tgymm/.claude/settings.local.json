@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(grep -v \":0$\")",
+      "Bash(bash fix-remote-urls.sh)",
+      "Bash(xargs -r kill)",
+      "Bash(pkill -f fix-remote-urls)",
+      "Bash(python fix-urls.py)",
+      "Bash(kill 46393)",
+      "Bash(python -u fix-urls3.py)",
+      "Bash(grep -o \"[^'\\\\\"]*pageheader[^'\\\\\"]*\" echo \"---\" grep \"pageheader\" C:/github/tishonator-demo1/tgymm/product/product-1/index.html)"
+    ]
+  }
+}
