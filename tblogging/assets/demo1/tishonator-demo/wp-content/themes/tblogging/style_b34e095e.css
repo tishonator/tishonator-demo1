@@ -14982,12 +14982,20 @@ ul.wc-block-product-template > li.wc-block-product:hover {
   margin: 0 8px;
 }
 .footer-social-widget li a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  line-height: 1;
   background: #222;
-  padding: 10px;
   border-radius: 50%;
   color: #bbb;
   transition: all 0.3s ease;
+}
+.footer-social-widget li a:before {
+  line-height: 1;
 }
 .footer-social-widget li a:hover {
   background: #0073aa;
